@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donation Gallery</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      color: #333;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 20px;
-    }
-    .gallery img {
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Donation Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdfdfd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #f44336;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+            padding: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-  <h1>Our Donation Moments</h1>
-  <div class="gallery">
-    <img src="imagesdonation/img1.jpg" alt="Donation 1">
-    <img src="imagesdonation/img2.jpg" alt="Donation 2">
-    <img src="imagesdonation/img3.jpg" alt="Donation 3">
-    <img src="imagesdonation/img4.jpg" alt="Donation 4">
-    <img src="imagesdonation/img5.jpg" alt="Donation 5">
-    <img src="imagesdonation/img6.jpg" alt="Donation 6">
-    <img src="imagesdonation/img7.jpg" alt="Donation 7">
-    <img src="imagesdonation/img10.jpg" alt="Donation 8">
-  </div>
+
+    <header>
+        <h1>Donation Awareness</h1>
+        <p>Let's help those in need. Every donation counts.</p>
+    </header>
+
+    <div class="gallery">
+        <img src="images/donation1.jpg" alt="Donation 1">
+        <img src="images/donation2.jpg" alt="Donation 2">
+        <img src="images/donation3.jpg" alt="Donation 3">
+        <img src="images/donation4.jpg" alt="Donation 4">
+        <img src="images/donation5.jpg" alt="Donation 5">
+        <img src="images/donation6.jpg" alt="Donation 6">
+        <img src="images/donation7.jpg" alt="Donation 7">
+        <img src="images/donation8.jpg" alt="Donation 8">
+        <img src="images/donation9.jpg" alt="Donation 9">
+        <img src="images/donation10.jpg" alt="Donation 10">
+    </div>
+
+    <footer>
+        &copy; 2025 Donation Awareness | Designed with love
+    </footer>
+
 </body>
 </html>
