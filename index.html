@@ -1,36 +1,94 @@
-
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>डोनेशन अवेयरनेस</title>
+    <title>Donation Awareness</title>
     <style>
-        body { font-family: 'Arial', sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
-        h1, h2 { text-align: center; color: #333; }
-        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
-        .gallery img { width: 250px; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-        .message { margin: 40px auto; max-width: 600px; font-size: 20px; color: #444; line-height: 1.6; text-align: center; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdfdfd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #f44336;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+            padding: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .hindi-message {
+            font-size: 20px;
+            font-weight: bold;
+            color: #d32f2f;
+            line-height: 1.6;
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>डोनेशन अवेयरनेस</h1>
-    <h2>गरीब, दिव्यांग और भूखे बच्चों की मदद करें</h2>
-    <div class="message">
-        केवल ₹11 से आप किसी ज़रूरतमंद की ज़िंदगी बदल सकते हैं।  
-        आपका छोटा सा योगदान किसी के लिए बड़ी उम्मीद बन सकता है।  
-        आइए, साथ मिलकर बदलाव लाएं।
-    </div>
+
+    <header>
+        <h1>Donation Awareness</h1>
+        <p>Let's help those in need. Every donation counts.</p>
+    </header>
+
+    <p class="hindi-message">
+        सिर्फ 11 रुपये का दान<br>
+        किसी भूखे के लिए रोटी बन सकता है।<br>
+        किसी बच्चे की किताबें बन सकता है।<br>
+        किसी माँ की दुआ बन सकता है।<br>
+        और किसी ज़िन्दगी की आखिरी उम्मीद बन सकता है।
+    </p>
+
     <div class="gallery">
-        <img src="img1.jpg" alt="Child 1">
-        <img src="img2.jpg" alt="Child 2">
-        <img src="img3.jpg" alt="Child 3">
-        <img src="img4.jpg" alt="Child 4">
-        <img src="img5.jpg" alt="Child 5">
-        <img src="img6.jpg" alt="Child 6">
-        <img src="img7.jpg" alt="Child 7">
-        <img src="img8.jpg" alt="Child 8">
-        <img src="img9.jpg" alt="Child 9">
-        <img src="img10.jpg" alt="Child 10">
+        <img src="images/donation1.jpg" alt="Donation 1">
+        <img src="images/donation2.jpg" alt="Donation 2">
+        <img src="images/donation3.jpg" alt="Donation 3">
+        <img src="images/donation4.jpg" alt="Donation 4">
+        <img src="images/donation5.jpg" alt="Donation 5">
+        <img src="images/donation6.jpg" alt="Donation 6">
+        <img src="images/donation7.jpg" alt="Donation 7">
+        <img src="images/donation8.jpg" alt="Donation 8">
+        <img src="images/donation9.jpg" alt="Donation 9">
+        <img src="images/donation10.jpg" alt="Donation 10">
     </div>
+
+    <footer>
+        &copy; 2025 Donation Awareness | Designed with love
+    </footer>
+
 </body>
 </html>
