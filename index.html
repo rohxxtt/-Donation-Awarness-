@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
     <meta charset="UTF-8">
     <title>Donation Awareness</title>
@@ -24,37 +24,37 @@
             font-size: 18px;
             padding: 10px;
         }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
+        .highlight {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 12px;
+            margin: 20px;
+            border: 1px solid #ffeeba;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
         }
-        .gallery img {
-            width: 300px;
-            height: auto;
-            margin: 10px;
-            border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-            transition: transform 0.3s;
+        .stories {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+            text-align: left;
         }
-        .gallery img:hover {
-            transform: scale(1.05);
+        .story {
+            background: #fff8f0;
+            border-left: 5px solid #f44336;
+            margin: 20px 0;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
         footer {
             background-color: #222;
             color: #fff;
             padding: 15px;
-            position: fixed;
+            position: relative;
             width: 100%;
             bottom: 0;
-        }
-        .hindi-message {
-            font-size: 20px;
-            font-weight: bold;
-            color: #d32f2f;
-            line-height: 1.6;
-            margin: 20px;
         }
     </style>
 </head>
@@ -62,28 +62,38 @@
 
     <header>
         <h1>Donation Awareness</h1>
-        <p>Let's help those in need. Every donation counts.</p>
+        <p>आइए, ज़रूरतमंदों की मदद करें। आपका छोटा सा योगदान किसी की ज़िंदगी बदल सकता है।</p>
     </header>
 
-    <p class="hindi-message">
-        सिर्फ 11 रुपये का दान<br>
-        किसी भूखे के लिए रोटी बन सकता है।<br>
-        किसी बच्चे की किताबें बन सकता है।<br>
-        किसी माँ की दुआ बन सकता है।<br>
-        और किसी ज़िन्दगी की आखिरी उम्मीद बन सकता है।
-    </p>
+    <div class="highlight">
+        "सिर्फ 11 रुपये का डोनेशन भी किसी भूखे के लिए एक वक़्त की रोटी बन सकता है।"
+    </div>
 
-    <div class="gallery">
-        <img src="images/donation1.jpg" alt="Donation 1">
-        <img src="images/donation2.jpg" alt="Donation 2">
-        <img src="images/donation3.jpg" alt="Donation 3">
-        <img src="images/donation4.jpg" alt="Donation 4">
-        <img src="images/donation5.jpg" alt="Donation 5">
-        <img src="images/donation6.jpg" alt="Donation 6">
-        <img src="images/donation7.jpg" alt="Donation 7">
-        <img src="images/donation8.jpg" alt="Donation 8">
-        <img src="images/donation9.jpg" alt="Donation 9">
-        <img src="images/donation10.jpg" alt="Donation 10">
+    <div class="stories">
+        <div class="story">
+            <strong>1. माँ की साड़ी</strong><br>
+            हर रात माँ वही पुरानी फटी साड़ी पहनती थी। बेटे ने पूछा — "नई क्यों नहीं पहनती?" माँ मुस्कराई — "बेटा, तू स्कूल जा सके, इसलिए बचा रही हूँ पैसे।" एक दिन बेटे ने देखा — माँ ने साड़ी के नीचे पेट पर पट्टी बाँध रखी थी। वो खाना जो बच्चा खाता था... माँ वही बचा-बचा कर देती थी।
+        </div>
+
+        <div class="story">
+            <strong>2. भिखारी का स्कूल</strong><br>
+            एक भिखारी रोज़ एक स्कूल के बाहर बैठता था। एक बच्चा रोज़ उसे बचा हुआ टिफिन देता और मुस्कराता। एक दिन भिखारी ग़ायब हो गया। हफ्ते बाद उस बच्चे को एक पेन मिला, जिस पर लिखा था — "तूने भूख नहीं, इज़्ज़त दी थी... अब मैं पढ़ रहा हूँ।"
+        </div>
+
+        <div class="story">
+            <strong>3. बूट पॉलिश</strong><br>
+            8 साल का बच्चा स्टेशन पर बूट पॉलिश करता था। एक आदमी बोला — "पढ़ क्यों नहीं रहे?" बच्चा बोला — "अम्मा बीमार हैं, पहले उनका इलाज। किताबें बाद में आएंगी।" अगले दिन वही आदमी एक स्कूल ड्रेस और किताबें लेकर आया। बच्चा फूट-फूटकर रो पड़ा — "आज पापा फिर से ज़िंदा लग रहे हैं।"
+        </div>
+
+        <div class="story">
+            <strong>4. 11 रुपये की मिठाई</strong><br>
+            एक बूढ़ी औरत मंदिर के बाहर खड़ी थी। एक आदमी ने पूछा — "क्या कर रही हैं?" उसने कहा — "11 रुपये का डोनेशन मिला है, सोचा किसी भूखे को मिठाई खिला दूं।" उस दिन मंदिर के बाहर एक बच्चा मुस्करा रहा था, वो कह रहा था — "आज मुझे भी त्यौहार जैसा लग रहा है।"
+        </div>
+
+        <div class="story">
+            <strong>5. टपकती छत और सपना</strong><br>
+            एक बच्चा रोज़ स्कूल की दीवार के पार झांकता था। मास्टर ने बुलाया — "अंदर क्यों नहीं आता?" बच्चा बोला — "कपड़े नहीं हैं मास्टरजी, भीग जाते हैं छत से।" मास्टर ने उसे अंदर बुलाया, कुर्सी पर बैठाया और कहा — "आज से तू मेरा बेटा है, और ये स्कूल तेरा घर।"
+        </div>
     </div>
 
     <footer>
